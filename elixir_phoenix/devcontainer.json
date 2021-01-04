@@ -1,0 +1,13 @@
+{
+	"name": "Phoenix",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "web",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": [
+		"jakebecker.elixir-ls"
+	],
+	"remoteUser": "vscode",
+	"workspaceFolder":"/workspace"
+}

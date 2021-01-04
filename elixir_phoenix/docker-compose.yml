@@ -5,6 +5,8 @@ services:
     command: /bin/sh -c "while sleep 1000; do :; done"
     ports:
       - "4000:4000"
+    volumes:
+      - ..:/workspace
   db:
     image: "postgres"
     environment:
