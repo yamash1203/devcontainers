@@ -1,0 +1,17 @@
+{
+	"name": "Rust",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"VARIANT": "latest",
+			"USERNAME": "vscode"
+		}
+	},
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": [
+		"rust-lang.rust"
+	],
+	"remoteUser": "vscode"
+}
