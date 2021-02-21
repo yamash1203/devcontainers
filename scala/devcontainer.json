@@ -1,0 +1,17 @@
+{
+	"name": "Scala",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"SBT_VERSION": "1.4.7",
+			"USERNAME": "vscode"
+		}
+	},
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": [
+		"scalameta.metals"
+	],
+	"remoteUser": "vscode"
+}
